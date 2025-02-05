@@ -1,7 +1,6 @@
 import { config as dotenv } from "dotenv";
 dotenv();
 
-console.log('process.env.MONGO_URL :>> ', process.env.MONGO_URL);
-export const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/PositionChecher";
+export const MONGO_URL = "mongodb+srv://muffin:RIZZ@cluster0.xf6zg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-export const PORT = process.env.PORT || 3000;
+export const PORT = 5000;
